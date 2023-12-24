@@ -107,31 +107,4 @@ header a.active, header a:hover {
   fill: #9e9ea7;
   width: 1rem;
   height: 1rem;
-}
-
-.shoes .shoes__conntent {
-  display: grid;
-  gap: 16px;
-  margin-top: 16px;
-  grid-template-columns: 1fr 1fr 2fr;
-  background-color: #0d0c22;
-}
-.shoes .shoes__conntent .sub__main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.shoes .shoes__conntent .sub__main img {
-  margin-bottom: 10px;
-}
-.shoes .shoes__conntent .sub__main img:hover {
-  cursor: pointer;
-  opacity: 0.5;
-}
-.shoes .shoes__conntent .sub__main .description {
-  background-color: #000000;
-}
-.shoes .shoes__conntent .sub__main .description a {
-  text-decoration: none;
-  color: #0d0c22;
 }/*# sourceMappingURL=card.css.map */
