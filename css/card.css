@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f3f4f5;
   font-family: "Inter";
@@ -24,6 +30,12 @@ header .header__nav {
   justify-content: space-between;
   height: 100%;
   align-items: center;
+}
+header .logo_a {
+  text-decoration: none;
+}
+header .logo_a:hover {
+  text-decoration: none;
 }
 header a {
   text-decoration: none;
@@ -97,31 +109,29 @@ header a.active, header a:hover {
   height: 1rem;
 }
 
-.shoes {
-  padding-top: 30px;
-  background-color: #ac3535;
-}
-.shoes .shoes__content {
+.shoes .shoes__conntent {
   display: grid;
-  grid-template-columns: 220px 670px 440px;
-  gap: 13px;
+  gap: 16px;
+  margin-top: 16px;
+  grid-template-columns: 1fr 1fr 2fr;
+  background-color: #0d0c22;
 }
-.shoes .sub__main {
+.shoes .shoes__conntent .sub__main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.shoes .sub__main img {
+.shoes .shoes__conntent .sub__main img {
   margin-bottom: 10px;
 }
-.shoes .sub__main img:hover {
+.shoes .shoes__conntent .sub__main img:hover {
   cursor: pointer;
   opacity: 0.5;
 }
-.shoes .sub__main .description {
+.shoes .shoes__conntent .sub__main .description {
   background-color: #000000;
 }
-.shoes .sub__main .description a {
+.shoes .shoes__conntent .sub__main .description a {
   text-decoration: none;
   color: #0d0c22;
 }/*# sourceMappingURL=card.css.map */
