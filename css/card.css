@@ -15,6 +15,21 @@ body {
   font-family: "Inter";
 }
 
+.btn-back {
+  margin-top: 100px;
+}
+.btn-back .back-btn {
+  padding: 15px 80px;
+  color: #fff;
+  background-color: #537d90;
+  transition: 0.7s;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.btn-back .back-btn:hover {
+  background-color: rgba(83, 125, 144, 0.7960784314);
+}
+
 .container {
   max-width: 1370px;
   margin: 0 auto;
@@ -107,4 +122,130 @@ header a.active, header a:hover {
   fill: #9e9ea7;
   width: 1rem;
   height: 1rem;
+}
+
+.shoes .shoes__content {
+  display: grid;
+  grid-template-columns: 15% 55% 30%;
+  grid-gap: 15px;
+  height: 650px;
+}
+.shoes .shoes__content .sub__main img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.shoes .shoes__content .sub__main img:hover {
+  opacity: 0.5;
+}
+.shoes .shoes__content .main {
+  display: flex;
+  align-items: center;
+}
+.shoes .shoes__content .main img {
+  width: 100%;
+}
+.shoes .shoes__content .description__items {
+  background-color: #fff;
+  padding: 20px 25px 40px 20px;
+}
+.shoes .shoes__content .description__items .des__left {
+  padding-right: 50px;
+  height: auto;
+}
+.shoes .shoes__content .description__items .description__title {
+  margin-bottom: 10px;
+}
+.shoes .shoes__content .description__items .description__subtitle {
+  margin-bottom: 10px;
+}
+.shoes .shoes__content .description__items .price {
+  margin-bottom: 10px;
+}
+.shoes .shoes__content .description__items .size {
+  margin-bottom: 10px;
+}
+.shoes .shoes__content .description__items .size a {
+  text-decoration: none;
+  color: #537d90;
+}
+.shoes .shoes__content .description__items .size a:hover {
+  color: #68aecf;
+}
+.shoes .shoes__content .description__items .decription__info {
+  padding-bottom: 10px;
+}
+.shoes .shoes__content .description__items .decription__info span {
+  line-height: 1.7;
+}
+.shoes .shoes__content .description__items .decription__info a {
+  text-decoration: none;
+  color: #537d90;
+}
+.shoes .shoes__content .description__items .decription__info a:hover {
+  color: #68aecf;
+}
+.shoes .shoes__content .description__items s {
+  font-size: 20px;
+  color: #d01a1a;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.shoes .shoes__content .description__items .des__right {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.shoes .shoes__content .description__items .des__right .des__right_btn {
+  padding: 15px;
+  color: #fff;
+  background-color: #537d90;
+  transition: 0.7s;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.shoes .shoes__content .description__items .des__right .des__right_btn:hover {
+  background-color: rgba(83, 125, 144, 0.7960784314);
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  margin-top: 200px;
+}
+footer .footer__content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0 80px 0;
+}
+footer .footer__content a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer__content .help {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer__content .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+footer .footer__content .contacts .footer__icon {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+footer .footer__content .check-list {
+  display: flex;
+  flex-direction: column;
+}
+footer .copyright {
+  display: flex;
+  top: 0;
+  justify-content: center;
+  padding-bottom: 20px;
 }/*# sourceMappingURL=card.css.map */
