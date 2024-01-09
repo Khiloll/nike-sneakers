@@ -53,7 +53,7 @@ header {
                 &.active,
                 &:hover {
                     padding-bottom: 5px;
-                    
+                    text-decoration: line-through;
                     border-color: green;
                     }
             }
@@ -159,6 +159,7 @@ header {
         align-items: center;
         justify-content: space-between;
         padding-top: 10px;
+        
         
         .user__profile {
             padding: 0 20px 0 20px;
@@ -332,6 +333,13 @@ footer {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+
+            a {
+              
+                &:hover {
+                    text-decoration: line-through;
+                }
+            }
         }
 
 
@@ -340,6 +348,13 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         gap: 10px;
+
+        a {
+              
+            &:hover {
+                text-decoration: line-through;
+            }
+        }
         
         .footer__icon {
             width: 30px;
