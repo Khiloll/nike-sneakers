@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 * {
   margin: 0;
@@ -245,6 +246,80 @@ header .header__intro .intro__btn:hover {
 .shoes .wrapper .card .card__btn:hover {
   background-color: rgba(83, 125, 144, 0.7960784314);
   transition: 0.7s;
+}
+.shoes .wrapper .cart-modal {
+  display: none;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 15%;
+  overflow-y: auto;
+  height: 735px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  z-index: 9999;
+}
+.shoes .wrapper .cart-modal .cart-buy {
+  width: 15%;
+  position: fixed;
+  bottom: 20px; /* отступ снизу */
+  right: 18px; /* отступ справа */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #537d90;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.shoes .wrapper .cart-modal .cart-buy:hover {
+  background-color: rgba(83, 125, 144, 0.7960784314);
+  transition: 0.7s;
+}
+.shoes .wrapper .cart-modal .card {
+  width: 200px;
+  height: 220px;
+}
+.shoes .wrapper .cart-modal .card img {
+  width: 80%;
+  height: 100%;
+  margin: 10px;
+}
+.shoes .wrapper .cart-modal .card .card__name {
+  margin-bottom: 5px;
+}
+.shoes .wrapper .cart-modal .card .card__price {
+  margin-bottom: 10px;
+}
+.shoes .wrapper .cart-modal .card .card__btn {
+  padding: 5px;
+}
+.shoes .wrapper .cart-btn {
+  width: 90%;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #537d90;
+  color: white;
+}
+.shoes .wrapper .cart-btn:hover {
+  background-color: rgba(83, 125, 144, 0.7960784314);
+  transition: 0.7s;
+}
+.shoes .wrapper .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .feedback .feedback__content {
